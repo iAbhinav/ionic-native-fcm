@@ -1,6 +1,6 @@
 # Ionic Native Fcm
 
-
+Use this library to listen to Firebase Cloud Messages on Ionic 3.
 
 Due to dependency issues of firebase and rxjs, one cannot use the @ionic-native/firebase with ionic v3. This package is created to easily implement Firebase Cloud Messaging in ionic v3.
 

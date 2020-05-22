@@ -1,1 +1,1 @@
-export { FCM } from "./fcm";
+export { IonicNativeFcm } from "./ionic.native.fcm";

@@ -1,6 +1,6 @@
 {
   "name": "ionic-native-fcm",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "Use this package to easily implement Firebase Cloud Messaging in ionic v3.",
   "main": "./dist/index.js",
   "scripts": {
@@ -20,6 +20,10 @@
   ],
   "author": "Abhinav Singhal",
   "license": "ISC",
+  "dependencies": {
+    "cordova-plugin-firebasex": "^7.0.1",
+    "rxjs": "^5.5.11"
+  },
   "devDependencies": {
     "ts-loader": "^7.0.4",
     "typescript": "^3.9.3",

@@ -19,6 +19,9 @@ npm i ionic-native-fcm
 ### Usage Examples
 
 ```
+import { IonicNativeFcm } from "ionic-native-fcm";
+
+
 export class MyProvider {
   private ionicNativeFcm: IonicNativeFcm;
   
@@ -52,3 +55,5 @@ export class MyProvider {
   
 }
 ```
+
+You may directly import the class in your service. No need to import in module.ts file.
